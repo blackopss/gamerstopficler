@@ -1,10 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
  client.on('ready', () => {
-  client.user.setGame('*help | *invite','https://www.twitch.tv/peery13');
-  console.log('---------------');
-  console.log(' Bot Is Online')
-  console.log('---------------')
+    console.log(`Logged in as ${client.user.tag}!`);
+    console.log(`in ${client.guilds.size} servers `)
+    console.log(`[Users] ${client.users.size}`)
+	client.user.setGame(`*invite|*help`)
+    client.user.setStatus("dnd")
 });
 var prefix = "*";	
 client.on('message', message => {
@@ -116,7 +117,7 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~The King Bot~~__ By: ƦØĊƘĒŦMĀƝ#5683
+__~~GAMER-BOT~~__ By: ƦØĊƘĒŦMĀƝ#5683
 
 ╔[❖════════════❖]╗
              Prefix = ' * '
@@ -188,7 +189,7 @@ Server support: https://discord.gg/8zRnMrt
 
 ==================================================================
 
-bot invite link: 
+bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot
 
 ==================================================================
 
@@ -209,7 +210,7 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~The King Bot~~__ By: ƦØĊƘĒŦMĀƝ#5683
+__~~GAMER-BOT~~__ By: ƦØĊƘĒŦMĀƝ#5683
 ╰━━╯
 ╔[❖════════════❖]╗
                   Prefix = ' * '
@@ -278,7 +279,7 @@ __~~The King Bot~~__ By: ƦØĊƘĒŦMĀƝ#5683
 
 Server support: https://discord.gg/8zRnMrt
 
-bot invite link: 
+bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot
 
 ==================================================================
 
@@ -344,7 +345,7 @@ client.on('message', message => {
  
 بامكانك دعوة البوت من هنا
 
-
+***bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot***
 
 Server Support : https://discord.gg/8zRnMrt
 `);
@@ -566,18 +567,7 @@ client.on('message', message => {
 });
 
 
-client.on("guildDelete", guild => {
-console.log(`**The King Bot** Leave From Server -- = ${guild.name} = -- , Server Owner -- = ${guild.owner.user.username} = --`)
-client.channels.get("390983810889678868").send('**The King Bot** ``Kicked`` From Server - -- = '+`**${guild.name}**`+' = -- '+'**Server Owner** -- =' +`**${guild.owner.user.username}**` +'= --')
-});
 
-client.on("guildCreate", guild => {
-client.channels.get("390983810889678868").send(`**The King Bot** has been **added** ❤ from this server **(${guild.name})** , Server Owner 👑 **(${guild.owner.user.username})**`)
-});
-
-client.on("guildDelete", guild => {
-client.channels.get("390983810889678868").send(`**The King Bot** has been **removed** 😔 from this server **(${guild.name})** , Server Owner 👑 **(${guild.owner.user.username})**`)
-});
 
 client.on('guildCreate', guild => {
   var embed = new Discord.RichEmbed()
