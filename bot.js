@@ -5,7 +5,8 @@ const client = new Discord.Client();
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
-});	
+});
+var prefix = "*";	
 client.on('message', message => {
         if (message.content.startsWith(prefix + "uptime")) {
     let ms = client.uptime;
@@ -115,15 +116,8 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~The King Bot~~__ By: Peery#0609
-╱╭╮╭╮╱╱╱╱╭╮╭━╮╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╭╯╰┫┃╱╱╱╱┃┃┃╭╯╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╰╮╭┫╰━┳━━┫╰╯╯╭┳━╮╭━━┫╰╯╰┳━┻╮╭╯
-╱┃┃┃╭╮┃┃━┫╭╮┃┣┫╭╮┫╭╮┃╭━╮┃╭╮┃┃
-╱┃╰┫┃┃┃┃━┫┃┃╰┫┃┃┃┃╰╯┃╰━╯┃╰╯┃╰╮
-╱╰━┻╯╰┻━━┻╯╰━┻┻╯╰┻━╮┣━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+__~~The King Bot~~__ By: ƦØĊƘĒŦMĀƝ#5683
+
 ╔[❖════════════❖]╗
              Prefix = ' * '
 ╚[❖════════════❖]╝
@@ -190,11 +184,11 @@ to enable welcome message do channel name "wlc"
 
 ==================================================================
 
-Server support: https://discord.gg/twdHNJT
+Server support: https://discord.gg/8zRnMrt
 
 ==================================================================
 
-bot invite link: https://discordapp.com/oauth2/authorize?client_id=388700863893602304&scope=bot&permissions=0
+bot invite link: 
 
 ==================================================================
 
@@ -215,15 +209,8 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~The King Bot~~__ By: Peery#0609
-╱╭╮╭╮╱╱╱╱╭╮╭━╮╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╭╯╰┫┃╱╱╱╱┃┃┃╭╯╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╰╮╭┫╰━┳━━┫╰╯╯╭┳━╮╭━━┫╰╯╰┳━┻╮╭╯
-╱┃┃┃╭╮┃┃━┫╭╮┃┣┫╭╮┫╭╮┃╭━╮┃╭╮┃┃
-╱┃╰┫┃┃┃┃━┫┃┃╰┫┃┃┃┃╰╯┃╰━╯┃╰╯┃╰╮
-╱╰━┻╯╰┻━━┻╯╰━┻┻╯╰┻━╮┣━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+__~~The King Bot~~__ By: ƦØĊƘĒŦMĀƝ#5683
+╰━━╯
 ╔[❖════════════❖]╗
                   Prefix = ' * '
 ╚[❖════════════❖]╝
@@ -289,9 +276,9 @@ __~~The King Bot~~__ By: Peery#0609
 
 ==================================================================
 
-Server support: https://discord.gg/twdHNJT
+Server support: https://discord.gg/8zRnMrt
 
-bot invite link: https://discordapp.com/oauth2/authorize?client_id=388700863893602304&scope=bot&permissions=0
+bot invite link: 
 
 ==================================================================
 
@@ -333,20 +320,12 @@ client.on('message', message => {
  message.author.sendMessage(`
  
  __~~Bot Staff~~__
- ╱╭╮╭╮╱╱╱╱╭╮╭━╮╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╭╯╰┫┃╱╱╱╱┃┃┃╭╯╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╰╮╭┫╰━┳━━┫╰╯╯╭┳━╮╭━━┫╰╯╰┳━┻╮╭╯
-╱┃┃┃╭╮┃┃━┫╭╮┃┣┫╭╮┫╭╮┃╭━╮┃╭╮┃┃
-╱┃╰┫┃┃┃┃━┫┃┃╰┫┃┃┃┃╰╯┃╰━╯┃╰╯┃╰╮
-╱╰━┻╯╰┻━━┻╯╰━┻┻╯╰┻━╮┣━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+━╯
 
- __Powered By__: Peery#0609
+ __Powered By__: ƦØĊƘĒŦMĀƝ#5683
 
-Server Support : https://discord.gg/twdHNJT
+Server Support : https://discord.gg/8zRnMrt
 
-https://discordapp.com/oauth2/authorize?client_id=388700863893602304&scope=bot&permissions=0
 `);
 
 message.channel.send('**تم الارسال في الخاص**');
@@ -361,20 +340,13 @@ client.on('message', message => {
 
  message.author.sendMessage(`
 
-╱╭╮╭╮╱╱╱╱╭╮╭━╮╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╭╯╰┫┃╱╱╱╱┃┃┃╭╯╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╰╮╭┫╰━┳━━┫╰╯╯╭┳━╮╭━━┫╰╯╰┳━┻╮╭╯
-╱┃┃┃╭╮┃┃━┫╭╮┃┣┫╭╮┫╭╮┃╭━╮┃╭╮┃┃
-╱┃╰┫┃┃┃┃━┫┃┃╰┫┃┃┃┃╰╯┃╰━╯┃╰╯┃╰╮
-╱╰━┻╯╰┻━━┻╯╰━┻┻╯╰┻━╮┣━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+
  
 بامكانك دعوة البوت من هنا
 
-https://discordapp.com/oauth2/authorize?client_id=388700863893602304&scope=bot&permissions=0
 
-Server Support : https://discord.gg/twdHNJT
+
+Server Support : https://discord.gg/8zRnMrt
 `);
 
 message.channel.send('**تم الارسال في الخاص**');
