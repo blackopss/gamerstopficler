@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const adminprefix = ".";
 const devs = ['431150885549113344'];
 const child_process = require("child_process");
- client.on('ready', () => {
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 client.on('ready', () => {
   client.user.setGame('*help | *invite','https://www.twitch.tv/peery13');
   console.log('---------------');
@@ -110,6 +110,7 @@ client.on('message', message => {
       message.channel.sendMessage(`**:white_check_mark:   ${argresult}**`)
   }
 });
+
 client.on('message', message => {
   
 if (message.content.startsWith(prefix + 'perm')) {
