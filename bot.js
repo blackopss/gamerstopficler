@@ -180,7 +180,7 @@ __~~GAMER-BOT~~__ By: ƦØĊƘĒŦMĀƝ#5683
                     Welcome
 ╚[❖════════════❖]╝
 
-to enable welcome message do channel name "wlc"
+to enable welcome message do channel name "welcome"
 
 
 ==================================================================
@@ -273,7 +273,7 @@ __~~GAMER-BOT~~__ By: ƦØĊƘĒŦMĀƝ#5683
                       الترحيب
 ╚[❖════════════❖]╝
 
-لتفعيل خاصية الترحيب قم بعمل قناة اسمها "wlc"
+لتفعيل خاصية الترحيب قم بعمل قناة اسمها "welcome"
 
 ==================================================================
 
@@ -650,9 +650,9 @@ client.on('guildMemberAdd', member => {
     .setDescription(`اهلا بك في السيرفر`)
     .addField(' :bust_in_silhouette:  انت رقم',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('GREEN')
-    .setFooter('The King Bot', 'https://cdn.discordapp.com/icons/390551815072251904/418fa2788d8115808951c9881ba8f190.jpg')
+    .setFooter('GAMER-BOT', '')
 
-var channel =member.guild.channels.find('name', 'wlc')
+var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
 channel.send({embed : embed});
 });
@@ -665,9 +665,9 @@ client.on('guildMemberRemove', member => {
     .setDescription(`الى اللقاء...`)
     .addField(':bust_in_silhouette:   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('RED')
-    .setFooter(`The King Bot`, '')
+    .setFooter(`GAMER-BOT`, '')
 
-var channel =member.guild.channels.find('name', 'wlc')
+var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
 channel.send({embed : embed});
 });
