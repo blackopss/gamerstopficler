@@ -737,7 +737,7 @@ client.on("message", msg => {
 
 
 
-bot.on('guildMemberAdd', member => {
+client.on('message', message => {
 
      if (member.guild.id === "442303347266158592") {
     
