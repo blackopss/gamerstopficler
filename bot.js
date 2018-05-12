@@ -743,7 +743,7 @@ var jimp = require('jimp')
 client.on('guildMemberAdd', member => {
       
         if (member.guild.id === "442303347266158592") {
-        var w = ['/img/1.png'];
+        var w = ['/1.png'];
            let Image = Canvas.Image,
                canvas = new Canvas(401, 202),
                ctx = canvas.getContext('2d');
