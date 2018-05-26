@@ -153,7 +153,7 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~GAMER-BOT~~__ By: ƦØĊƘĒŦMĀƝ#5683
+__~~GAMER-BOT~~__ By: <@448444251504640012>
 
 ╔[❖════════════❖]╗
              Prefix = ' * '
@@ -246,7 +246,7 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~GAMER-BOT~~__ By: ƦØĊƘĒŦMĀƝ#5683
+__~~GAMER-BOT~~__ By: <@448444251504640012>
 ╰━━╯
 ╔[❖════════════❖]╗
                   Prefix = ' * '
@@ -313,9 +313,9 @@ __~~GAMER-BOT~~__ By: ƦØĊƘĒŦMĀƝ#5683
 
 ==================================================================
 
-Server support: https://discord.gg/8zRnMrt
+Server support: https://discord.gg/9FUHdCn
 
-bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot
+bot invite link: https://discordapp.com/api/oauth2/authorize?client_id=449945015490445325&permissions=8&scope=bot
 
 ==================================================================
 
